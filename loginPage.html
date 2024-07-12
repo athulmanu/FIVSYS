@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expressway - Company Information</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="loginPage.css">
+</head>
+
+<body>
+    <header class="homeHeader">
+        <div class="container d-flex justify-content-between align-items-center ">
+            <div class="logo">
+                <img src="images/logo_image.jpg" alt="Logo">
+            </div>
+
+
+        </div>
+
+
+    </header>
+    <div class="heading">
+        <h2>Please Login</h2>
+    </div>
+
+
+
+    <div class="verification">
+        <label for="phone">Phone Number: Adhar Linked</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+        <label for="otp">Enter OTP:</label>
+        <input type="text" id="otp" name="otp" pattern="[0-9]{6}" placeholder="Enter OTP" required>
+        <small>Enter the 6-digit OTP sent to your phone.</small>
+        <button type="submit" class="btn btn-primary btn-block mt-3" id="myButton">Login</button>
+    </div>
+
+
+
+
+    <!-- JavaScript dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        document.getElementById('myButton').onclick = function () {
+            window.location.href = 'form.html';
+        };
+    </script>
+</body>
+
+</html>

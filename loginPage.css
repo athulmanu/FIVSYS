@@ -1,0 +1,49 @@
+.logo img {
+    width: 250px;
+    height: 130px;
+}
+
+.homeHeader {
+    background-color: navy;
+    padding: 0 20px 0 20px;
+    margin-bottom: 30px;
+
+}
+
+
+
+
+.verification {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    align-items: center;
+
+}
+
+.heading {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.verification label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.verification input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.verification small {
+    display: block;
+    margin-top: 5px;
+    color: #888;
+}
